@@ -3007,6 +3007,17 @@
 #define USE_SERIAL_TELEMETRY
 #endif
 
+#ifdef APODIDAE_MAVRK_G071
+#define FILE_NAME "APODIDAE_MAVRK_G071"
+#define FIRMWARE_NAME "APOD_MAVRK_G071"
+#define DEAD_TIME 60
+#define HARDWARE_GROUP_G0_A
+#define SIXTY_FOUR_KB_MEMORY
+#define USE_SERIAL_TELEMETRY
+#define USE_STARTUP_BOOST
+#define ONE_TWO_CELL_MAX
+#endif
+
 /********************************** F031 Targets
  * ***********************************/
 
